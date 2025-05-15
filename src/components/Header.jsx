@@ -20,7 +20,7 @@ const Header = () => {
                 <nav 
                     className={`header__nav ${show ? "show" : ""}`} 
                     role="navigation" 
-                    aria-label="메인메뉴"
+                    aria-label="-메인메뉴-"
                 >
                     <ul>
                         {headerNav.map((nav, key) => (
